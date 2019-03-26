@@ -1,0 +1,128 @@
+body {
+  font-size: 15px;
+  cursor: crosshair;
+  font-family: 'Acme', sans-serif;
+}
+
+h1 {
+  font-size: 300%;
+  text-align: center;
+}
+
+#equipment {
+  border: 1px solid black;
+  height: 150px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+#current-block {
+  width: 20%;
+}
+
+.villager {
+  width: 15%
+}
+
+#current-pickaxe, #current-villager-pickaxe {
+  width: 18%;
+}
+
+#enchanted-book {
+  width: 30%;
+}
+
+#white {
+  width: 35%;
+}
+
+h2, p, img {
+  display: inline;
+  vertical-align: middle;
+}
+
+.top {
+  height: 80%;
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px 36px;
+  padding: 10px
+}
+
+#left-top {
+  width: 22%;
+  margin-top: 10px;
+}
+
+#mid-top {
+  width: 26%;
+}
+
+#right-top {
+  width: 20%
+}
+
+#center-block {
+  width: 10%;
+  margin: 10px 165px;
+}
+
+#center-block:active {
+  width: 9%;
+  margin: 15px 170px;
+}
+
+#center-block:hover {
+  cursor: pointer;
+}
+
+#upgrades-outer, #info-outer {
+  border: 1px solid black;
+  width: 30%;
+  height: 500px;
+  padding: 10px;
+}
+
+#upgrades-outer {
+  float: left
+}
+
+#info-outer {
+  float: right;
+}
+
+h3 {
+  font-size: 150%;
+  text-indent: 10px;
+}
+
+.upgrades {
+  border: 3px solid #33cc33;
+  width: 93.25%;
+  margin: 10px 5px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.upgrades:hover {
+  border: 3px solid #55ee55;
+}
+
+.upgrades:active {
+  border: 3px solid #ff9900;
+}
+
+#next-pickaxe-img {
+  width: 10%
+}
+
+#next-block-img {
+  width: 15%
+}
+
+#add-10-clicks, #double-clicks,
+#X1000-clicks {
+  border: 1px solid black;
+}
