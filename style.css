@@ -25,7 +25,7 @@ h1 {
 }
 
 .villager {
-  width: 15%
+  width: 15%;
 }
 
 #current-pickaxe, #current-villager-pickaxe {
@@ -89,7 +89,7 @@ h2, p, img {
 }
 
 #upgrades-outer {
-  float: left
+  float: left;
 }
 
 #info-outer {
@@ -118,11 +118,11 @@ h3 {
 }
 
 #next-pickaxe-img {
-  width: 10%
+  width: 10%;
 }
 
 #next-block-img {
-  width: 15%
+  width: 15%;
 }
 
 .info {
