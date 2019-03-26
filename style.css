@@ -1,7 +1,9 @@
 body {
+  background-color: #00ff00;
   font-size: 15px;
   cursor: crosshair;
   font-family: 'Acme', sans-serif;
+  user-select: none;
 }
 
 h1 {
@@ -15,6 +17,7 @@ h1 {
   margin: auto;
   margin-bottom: 20px;
   padding: 5px;
+  background-color: white;
 }
 
 #current-block {
@@ -61,7 +64,7 @@ h2, p, img {
 }
 
 #right-top {
-  width: 20%
+  width: 20%;
 }
 
 #center-block {
@@ -70,8 +73,7 @@ h2, p, img {
 }
 
 #center-block:active {
-  width: 9%;
-  margin: 15px 170px;
+  transform: scale(0.95);
 }
 
 #center-block:hover {
@@ -83,6 +85,7 @@ h2, p, img {
   width: 30%;
   height: 500px;
   padding: 10px;
+  background-color: white;
 }
 
 #upgrades-outer {
@@ -122,12 +125,25 @@ h3 {
   width: 15%
 }
 
-#add-10-clicks, #double-clicks,
-#X1000-clicks {
+.info {
   border: 1px solid black;
 }
 
 #link-github {
   text-decoration: none;
   color: black;
+}
+
+#upgrade-bar-outer {
+  height: 10px;
+  width: 300px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#upgrade-bar-inner {
+  height: 10px;
+  width: 60px;
+  background-color: lightblue;
+  border-radius: 10px;
 }
